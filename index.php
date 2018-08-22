@@ -19,7 +19,7 @@
     <div id="loginContainer"><p><input type="text" placeholder="Alias" id="user"></p>
         <p><input type="password" placeholder="Password" id="pass"></p>
         <p><button id="login">login</button></p>
-        <p><a href="#" id="loadRegis">Registrarse</a></p>
+        <p><a href="registro.php" id="loadRegis">Registrarse</a></p>
         </div>
 </div>
 <div id="zemFoot">
