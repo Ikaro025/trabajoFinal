@@ -20,26 +20,7 @@
         <p><input type="password" placeholder="Password" id="pass"></p>
         <p><button id="login">login</button></p>
         <p><a href="#" id="loadRegis">Registrarse</a></p>
-        <script>
-            $("#loadRegis").click(changeForm);
-            $("#login").click(loadMainPannel);
-            function changeForm(){
-                $("#loginContainer").load('tpl/register.tpl');
-            }
-            function loadMainPannel(){
-                var data=new Object;
-                data.user=$("#user").val();
-                data.pass=$("#pass").val();
-
-                Zem.Api.rest({
-                    type:'POST',
-                    method:'login',
-                    data:data,
-                    module:'main'
-                });
-                Zem.Api.send();
-            }
-        </script></div>
+        </div>
 </div>
 <div id="zemFoot">
 
