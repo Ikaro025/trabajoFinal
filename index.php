@@ -19,6 +19,7 @@
     <div id="loginContainer"><p><input type="text" placeholder="Alias" id="user"></p>
         <p><input type="password" placeholder="Password" id="pass"></p>
         <p><button id="login">login</button></p>
+<<<<<<< HEAD
         <p><a href="#" id="loadRegis">Registrarse</a></p>
         <script>
             $("#loadRegis").click(changeForm);
@@ -40,6 +41,10 @@
                 Zem.Api.send();
             }
         </script></div>
+=======
+        <p><a href="registro.php" id="loadRegis">Registrarse</a></p>
+        </div>
+>>>>>>> login
 </div>
 <div id="zemFoot">
 
